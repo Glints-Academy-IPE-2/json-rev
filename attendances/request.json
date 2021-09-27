@@ -1,0 +1,14 @@
+
+//post method
+/checkin 
+
+{
+  "date": DateTime
+}
+
+//post method
+/checkout 
+
+{
+  "date": DateTime
+}

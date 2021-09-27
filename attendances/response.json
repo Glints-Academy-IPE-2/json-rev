@@ -1,0 +1,34 @@
+//Get all attendance
+
+/attendances?month=september&userId=0
+
+[
+  {
+    "userId": 1,
+    "date": Date,
+    "attendance": {
+      "checkin": DateTime,
+      "checkout": DateTime,
+    }
+  },
+  {
+    "userId": 1,
+    "date": Date,
+    "attendance": {
+      "checkin": DateTime,
+      "checkout": DateTime,
+    }
+  }
+]
+
+/attendances/username
+// private cuma bisa di akses kalo token sesuai dengan username
+//Get specific attendance
+{
+  "userId": 1,
+  "date": Date,
+  "attendance": {
+    "checkin": DateTime,
+    "checkout": DateTime,
+  }
+}

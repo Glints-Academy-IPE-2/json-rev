@@ -1,0 +1,74 @@
+// Get Method
+
+// untuk get all users, /users
+
+[
+  {
+    "name": "name",
+    "username": "username",
+    "email": "email",
+    "avatar": "image-link", // ga urgent
+    "isAdmin": Boolean, // [admin || user] by default = user
+    "isApproved": Boolean,
+    "isVerified": Boolean,
+    "location": {
+      "lat": "latitude",
+      "long": "longitude"
+    },
+    "updatedAt": Date,
+    "updatedBy": [relasi ke user yang ngupdate]
+  },
+  {
+    "name": "name",
+    "username": "username",
+    "email": "email",
+    "avatar": "image-link", // ga urgent
+    "isAdmin": Boolean, // [admin || user] by default = user
+    "isApproved": Boolean,
+    "isVerified": Boolean,
+    "location": {
+      "lat": "latitude",
+      "long": "longitude"
+    },
+    "updatedAt": Date,
+    "updatedBy": [relasi ke user yang ngupdate]
+  }
+]
+
+// untuk get specific user /users/username
+
+{
+  "name": "name",
+  "username": "username",
+  "email": "email",
+  "avatar": "image-link", // ga urgent
+  "isAdmin": Boolean, // [admin || user] by default = user
+  "isApproved": Boolean,
+  "isVerified": Boolean,
+  "location": {
+    "lat": "latitude",
+    "long": "longitude"
+  },
+  "updatedAt": Date,
+  "updatedBy": [relasi ke user yang ngupdate]
+}
+
+// Updates
+/attendance?isAdmin=true&isApproved=true&isVerified=true
+
+
+{
+  "name": "name",
+  "username": "username",
+  "email": "email",
+  "avatar": "image-link", // ga urgent
+  "isAdmin": Boolean, // [admin || user] by default = user
+  "isApproved": Boolean,
+  "isVerified": Boolean,
+  "location": {
+    "lat": "latitude",
+    "long": "longitude"
+  },
+  "updatedAt": Date,
+  "updatedBy": [relasi ke user yang ngupdate]
+}

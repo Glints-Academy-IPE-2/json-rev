@@ -1,0 +1,5 @@
+// POST METHOD
+{
+  "email": "users@email",
+  "password": "userPassword"
+}
