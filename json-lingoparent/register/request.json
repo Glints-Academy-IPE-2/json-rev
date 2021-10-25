@@ -1,7 +1,8 @@
-// POST METHOD
+// Lingoparent (both main app and admin)
 {
-  "name": "name",
-  "username": "username",
-  "email": "users@email",
-  "password": "user-password"
+  "firstname": "syaiton",
+  "lastname": "nirojim",
+  "email": "syaitonirojim@gmail.com",
+  "password": "syaitonton",
+  "phone": "08193021323"
 }

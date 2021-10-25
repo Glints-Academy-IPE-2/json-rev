@@ -1,4 +1,25 @@
+//Lingoparent (both main app and admin)
+// SUCCESS
 {
-  "status": 200, //500-201-401-404
-  "message": "response-messages"
+  "status": "success",
+  "msg": "Registered successfully",
+  "errors": null
+}
+
+// ERROR (errors field is optional, depends on user input)
+{
+    "status": "error",
+    "msg": "Validator error",
+    "errors": {
+        "name": [
+            "The name field is required."
+        ],
+        "email": [
+            "The email must be a valid email address."
+        ],
+        "password": [
+            "The password must be at least 8 characters."
+        ]
+    },
+    "content": null
 }
