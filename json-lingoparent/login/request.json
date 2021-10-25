@@ -1,0 +1,20 @@
+// POST METHOD
+{
+  "email": "users@email",
+  "password": "userPassword"
+}
+
+// Lingoparent
+{
+  "fullname": "johndoe"
+}
+
+// Lingoadmin
+{
+  ""
+}
+
+// Lingomain
+{
+  ""
+}

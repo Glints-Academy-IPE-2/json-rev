@@ -1,0 +1,23 @@
+// Get Users
+
+// get all users /users
+
+
+// untuk get specific user /users/username
+
+
+// updates user
+
+{
+  "name": "name",
+  "username": "username",
+  "email": "email",
+  "avatar": "image-link", // ga urgent
+  "isAdmin": Boolean, // [admin || user] by default = user
+  "isApproved": Boolean, // check role, true => boleh ngupdate
+  "isVerified": Boolean, // check role, true => boleh ngupdate
+  "location": {
+    "lat": "latitude",
+    "long": "longitude"
+  }
+}
