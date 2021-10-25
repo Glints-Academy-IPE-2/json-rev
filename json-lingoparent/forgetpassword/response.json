@@ -1,0 +1,16 @@
+//Lingoparent (both main app and admin)
+// SUCCESS
+{
+    "success": true,
+    "data": {
+        "message": "A reset email has been sent! Please check your email."
+    }
+}
+
+// ERROR
+{
+    "success": false,
+    "error": {
+        "email": "Email doesn't exist"
+    }
+}
