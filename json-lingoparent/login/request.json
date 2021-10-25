@@ -1,20 +1,17 @@
-// POST METHOD
+// Lingoparent (web - main app)
 {
   "email": "users@email",
   "password": "userPassword"
 }
 
-// Lingoparent
+// Lingoparent (mobile - main app)
 {
-  "fullname": "johndoe"
+  "email": "users@email",
+  "password": "userPassword"
 }
 
-// Lingoadmin
+// Lingoparent (web - admin)
 {
-  ""
-}
-
-// Lingomain
-{
-  ""
+  "email": "users@email",
+  "password": "userPassword"
 }

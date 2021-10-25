@@ -1,5 +1,52 @@
+// Success Response
+// lingoparent (web - main app)
 {
-  "status": 200, //500-201-401-404
-  "message": "response-messages"
+  "status": "success",
+  "msg": "Login successfully",
+  "errors": null,
+  "content": {
+    "status_code": 200,
+    "access_token": "1|ML4BE0rvutJLG1IhSd3UU6vQ9wttM0g1Fq1IbuGi",
+    "token_type": "Bearer",
+    "name": "syaiton",
+    "office_id": 1,
+    "role": "parent"
+  }
 }
 
+// lingoparent (web - admin)
+{
+  "status": "success",
+  "msg": "Login successfully",
+  "errors": null,
+  "content": {
+    "status_code": 200,
+    "access_token": "2|ML4BE0rvutJLG1IhSd3UU6vQ9wttM0g1Fq1IbuGi",
+    "token_type": "Bearer",
+    "name": "admin",
+    "office_id": 1,
+    "role": "admin"
+  }
+}
+
+// lingoparent (web - main app)
+{
+  "status": "success",
+  "msg": "Login successfully",
+  "errors": null,
+  "content": {
+    "status_code": 200,
+    "access_token": "3|ML4BE0rvutJLG1IhSd3UU6vQ9wttM0g1Fq1IbuGi",
+    "token_type": "Bearer",
+    "name": "syaiton",
+    "office_id": 1,
+    "role": "parent"
+  }
+}
+
+// Error Response
+// lingoparent (both main app and admin)
+{
+    "status": "error",
+    "msg": "Email doesn't exist"
+}
