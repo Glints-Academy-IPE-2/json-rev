@@ -1,0 +1,14 @@
+// Success Response
+// lingoparent (both main app and admin)
+{
+  "status": "success",
+  "msg": "Logout successfully",
+  "errors": null,
+  "content": null
+}
+
+// Error Response
+// lingoparent (both main app and admin)
+{
+
+}
